@@ -19,6 +19,12 @@
 
 *always* returns a `Number` or `null`
 
+### parseNumber.str(any except `Array`)
+
+*always* returns a `Number` or `null`
+
+Simpler check if you know you dont have an array
+
 ## Example
 
 ```js
