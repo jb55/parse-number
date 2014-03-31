@@ -32,6 +32,7 @@ var parseNumber = require('parse-number')
 
 parseNumber(null) // == null
 parseNumber(undefined) // == null
+parseNumber("") // == null
 parseNumber("0") // == 0
 parseNumber(123) // == 123
 parseNumber("1.2234") // == 1.2234
