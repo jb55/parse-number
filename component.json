@@ -2,7 +2,7 @@
   "name": "parse-number",
   "repo": "jb55/parse-number",
   "description": "Normalize number parsing in javascript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": ["parse", "number"],
   "dependencies": {},
   "development": {},
