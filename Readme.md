@@ -1,7 +1,7 @@
 
 # parse-number
 
-  Normalize number parsing, `isNaN` -> `null`
+  Normalize number parsing, `NaN` -> `null`
 
 ## Installation
 
