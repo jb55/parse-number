@@ -1,6 +1,6 @@
 
-var assert = require('better-assert')
-var parse = require('..')
+var assert = require('better-assert');
+var parse = require('..');
 
 describe('parse number', function(){
   it('works', function(){
@@ -13,5 +13,9 @@ describe('parse number', function(){
     assert(parse({}) === null);
     assert(parse([]) === null);
     assert(parse(/hey/) === null);
+  });
+
+  it('simpler check fails on array', function(){
+    assert(parse.str([]) === 0);
   });
 });
