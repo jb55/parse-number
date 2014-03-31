@@ -11,7 +11,7 @@ var parser = module.exports = function(str) {
  * Simple check, assumes non-array inputs
  */
 parser.str = function(str) {
-  if (str == null) return null;
+  if (str == null || str === "") return null;
   var num = +str;
   return isNaN(num)? null : num;
 }
