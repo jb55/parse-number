@@ -1,0 +1,14 @@
+{
+  "name": "parse-number",
+  "repo": "jb55/parse-number",
+  "description": "Normalize number parsing in javascript",
+  "version": "0.0.1",
+  "keywords": ["parse", "number"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

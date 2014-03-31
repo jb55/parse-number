@@ -1,0 +1,19 @@
+{
+  "name": "parse-number",
+  "description": "Normalize number parsing",
+  "version": "0.0.1",
+  "keywords": ["parse", "number"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/parse-number.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "better-assert": "*"
+  }
+}
