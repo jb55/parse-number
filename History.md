@@ -1,4 +1,8 @@
 
+# 1.0.0
+
+* Switch from `null` to `NaN` semantics
+
 # 0.0.4
 
 * Added empty string check
