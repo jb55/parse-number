@@ -1,6 +1,6 @@
 
 var assert = require('better-assert');
-var parse = require('..');
+var parse = require('../');
 
 describe('parse number', function(){
   it('works', function(){
