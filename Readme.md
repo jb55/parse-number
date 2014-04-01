@@ -5,6 +5,8 @@
 
   [![Build Status](https://travis-ci.org/jb55/parse-number.png)](https://travis-ci.org/jb55/parse-number)
 
+  [![browser support](https://ci.testling.com/jb55/parse-number.png)](https://ci.testling.com/jb55/parse-number)
+
 ## Installation
 
   Install with npm
