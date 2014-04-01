@@ -12,7 +12,7 @@
     "test": "mocha --reporter spec"
   },
   "testling": {
-    "harness": "mocha-bdd",
+    "harness": "mocha",
     "files": "test/*.js",
     "browsers": [
       "ie/6..latest",
