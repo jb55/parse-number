@@ -1,7 +1,7 @@
 
 # parse-number
 
-  Normalize number parsing, `NaN` -> `null`
+  Normalize number parsing, always return `NaN` or `Number`
 
   [![Build Status](https://travis-ci.org/jb55/parse-number.png)](https://travis-ci.org/jb55/parse-number)
 
@@ -21,11 +21,11 @@
 
 ### parseNumber(any)
 
-*always* returns a `Number` or `null`
+*always* returns a `Number` or `NaN`
 
 ### parseNumber.str(any except `Array`)
 
-*always* returns a `Number` or `null`
+*always* returns a `Number` or `NaN`
 
 Simpler check if you know you dont have an array
 
@@ -34,9 +34,9 @@ Simpler check if you know you dont have an array
 ```js
 var parseNumber = require('parse-number')
 
-parseNumber(null) // == null
-parseNumber(undefined) // == null
-parseNumber("") // == null
+parseNumber(null) // NaN
+parseNumber(undefined) // NaN
+parseNumber("") // NaN
 parseNumber("0") // == 0
 parseNumber(123) // == 123
 parseNumber("1.2234") // == 1.2234
