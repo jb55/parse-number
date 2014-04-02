@@ -5,7 +5,7 @@
   "keywords": ["parse", "number"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jb55/parse-number.git"
+    "url": "https://github.com/jb55/parse-number.git"
   },
   "main": "index.js",
   "scripts": {
